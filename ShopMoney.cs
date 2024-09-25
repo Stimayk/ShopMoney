@@ -42,7 +42,7 @@ namespace ShopMoney
         {
             if (JsonMoney == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Доп. деньги");
+            SHOP_API.CreateCategory(CategoryName, "Р”РѕРї. РґРµРЅСЊРіРё");
 
             var sortedItems = JsonMoney
                 .Properties()
